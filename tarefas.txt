@@ -1,0 +1,9 @@
+tarefas facebook- home e perfil
+OK-link curtir em negrito e azul se for curtido pelo usuario logado, não exibir o descurtir
+OK-ul e li nos coments
+OK-adicionar nomes dos usuarios que curtiram post- em dropdown
+OK-foto do usuario no comentário
+OK-reordenar comentários
+OK-exibir atea text comentário no fim
+
+função de curtir não funciona em perfil

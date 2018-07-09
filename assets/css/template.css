@@ -1,0 +1,251 @@
+body{
+	background-color: #e9ebee !important;
+}
+.container{
+	max-width: 80% !important;
+	}
+.navbar{
+	background-color: #4267b2;
+	margin-bottom: 0px !important;
+
+}
+.lkgrupo a{
+	text-decoration: none;
+	color: #4267b2;
+}
+.panel > .list-group .list-group-item:first-child{
+	border-top-right-radius: 4px !important;
+    border-top-left-radius: 4px !important;
+}
+.panel > .list-group .list-group-item:last-child{
+	border-bottom-right-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+.panel > .list-group .list-group-item{
+	border:1px solid #dddddd !important;
+}
+.sugestaoItem, .requisicaoItem{
+	display: flex !important;		
+	padding-bottom: 0px !important;
+	padding-top: 0px !important;
+	padding-right: 0px !important;
+}
+
+.nm{
+	flex-basis: 200px;
+	margin-left: -10px;
+	margin-top: 3px;
+}
+.icon.rec{
+	color: red;
+	margin-right: 10px;
+}
+.icon.ac{
+	color:green;
+}
+.icon:hover{
+	cursor: pointer;		
+}
+.navbar-nav > li > a{
+	padding-top: 10px !important;
+	padding-bottom: 0px !important;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color: #4267b2 !important;
+}
+.col-sm-2.menu-left , .col-sm-3.menu-right{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.nmuser, .nmuser:hover{
+	text-transform: none;
+	color: #fff;
+}
+.user_lk{
+	padding: 5px;
+}
+.cont{
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid #eee;	
+	height: 35px;
+	/*margin-bottom: 10px;*/
+}
+.cont .lcc{
+	flex: 1;
+	text-align: center;
+	padding-top: 2px;
+	margin: 2px;	
+	font-size: 17px;
+}
+.flk{
+	position: relative;
+	display: block;
+}
+.flk .flkc{
+	display: none;
+	position: absolute;	    
+    padding-top: 2px;
+    margin: 2px;
+    font-size: 12px;
+    background-color: #4267b2;
+    color: #fff;
+    font-weight: initial;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+}
+.flk:hover .flkc{
+	display: block;
+}
+.lcc:hover{
+	background-color: #eee;
+	color: #4267b2;
+	font-size: 18px;
+	cursor: pointer;
+}
+.addgrupo{
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+}
+.nmdt{
+	/*border-bottom: 1px solid #eee;*/
+}
+.user_menu{
+	display: flex;
+	align-items: center;
+	padding-left: 5px;
+}
+.user_menu:hover{
+	background-color: #e9ebee;
+	cursor: pointer;
+}
+.user_menu .nm_user{
+	margin-left: 10px;
+}
+/**
+tamanho original do arquivo
+document.getElementById('foto').naturalWidth
+*/
+.foto_feed{
+	border:0px;		
+	box-shadow: 0px 0px 5px #aaa;
+	margin-top:10px;	
+	max-width:96%;
+	max-height:400px;
+
+}
+.img_post{
+	display: flex;
+	justify-content: center;
+}
+
+.img_edit_perfil{	
+	height: 120px;
+}
+.img_edit_perfil img{
+	float: left;	
+	max-width: 100%;
+	max-height: 120px;
+}
+.img_edit_capa img{
+	float: left;	
+	max-height: 120px;
+}
+.ft_user{
+	float: left;	
+	max-height: 40px;
+	margin-top: -10px;
+}
+.ft_userc{
+	float: left;	
+	max-height: 30px;
+	margin-top: -5px;
+}
+.panel_post .ft_user, .user_menu .ft_user{
+	margin-top: 0px !important;
+}
+.texto_feed{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.nome_feed{
+	font-size: 14px;
+	color: #4267b2;
+}
+
+.panel{
+	padding: 10px;
+	border:1px solid #ccc !important;
+}
+.panel.penel-coment{
+	margin-bottom: 5px !important;
+	background-color: #e9ebee4d;
+	border:1px solid #ddd !important;
+	list-style:none;
+}
+.panel.widget{
+	margin-top: 35px;
+}
+.logo_navbar{
+	max-width: 30px !important;
+}
+.widget{
+	background-color: #f7f7f7;
+}
+.widget h4{
+	text-align: center;	
+}
+.widget ul.req{
+	margin-left: -45px;
+	margin-right: -7px;
+}
+.post_area textarea{
+	height: 100px !important;
+}
+.post_area{
+	
+}
+.file {	
+	max-width: 65px;
+	background-color: whiteSmoke;
+	border: 1px solid #E3E3E3;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+}
+.upload{
+	padding: 8px 10px;
+	position: relative;        
+	border-radius: 5px;
+	width:100px;
+	color: #000;
+	cursor: pointer;
+
+}
+a:hover, a:focus,.upload input[type="file"]:hover, .upload:hover{
+	text-decoration: none !important;
+	cursor: pointer;
+	color: #2a6496;/*2a6496*/
+}
+.upload input[type="file"]{
+	position: absolute;	
+	left: 0;
+	top: 0;
+	max-width: 65px;
+	cursor: pointer;
+}
+.opacity{
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	  filter: alpha(opacity=0);
+	 -moz-opacity: 0;
+	 -khtml-opacity: 0;
+	 opacity: 0;
+}
+.coment_area{
+	display: none;
+}
